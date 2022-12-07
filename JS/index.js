@@ -39,8 +39,8 @@ function themvaogiohang(x) {
     }
   } else {
     giohang = JSON.parse(localStorage.getItem("giohang1"));
-    localStorage.removeItem("giohang1");
   }
+  localStorage.removeItem("giohang1");
 
   localStorage.setItem("giohang2", JSON.stringify(giohang));
   showcountsp();
